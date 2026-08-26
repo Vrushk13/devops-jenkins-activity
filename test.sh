@@ -2,7 +2,7 @@
 
 echo "Running application test..."
 
-if [ -f wrong-file.sh ]; then
+if [ -f app.sh ]; then
     echo "TEST PASSED: app.sh exists."
     exit 0
 else
